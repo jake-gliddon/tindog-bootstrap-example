@@ -1,0 +1,149 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container-fluid{
+    padding: 1.5% 2.5% 0;
+}
+
+.title {
+    background-color: #ff4c68;
+    /* height: 100vh; */
+}
+
+.intro-title {
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: #fff;
+}
+
+.btn {
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.iphone {
+    width: 60%;
+    height: 95%;
+    transform: rotate(25deg);
+}
+
+/* Navbar */
+.navbar{
+    padding: 0 0 6.5rem;
+}
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+}
+
+/* features */
+
+.feat {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 100px;
+    text-align: center;
+}
+
+.featIco {
+    text-align: center;
+    color: salmon;
+    padding: 0 0 2rem;
+}
+
+.featIco:hover{
+    color: #ff4c68;
+}
+
+.featHead {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.featPara {
+    font-weight: lighter;
+}
+
+/* carusel */
+
+.carousel {
+    text-align: center;
+    background-color: salmon;
+    padding: 200px;
+}
+
+.testimonial-text {
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+.testimonial-image {
+    border-radius: 50%;
+    width: 130px;
+}
+em {
+    color: #fff;
+}
+
+/* press */
+
+.press {
+    background-color: salmon;
+    text-align: center;
+    padding: 4% 1%;
+}
+
+.pressLogo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.pricing { 
+    margin: 0 auto;
+}
+.press-title {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.press-text {
+    text-align: center;
+    padding-bottom: 50px;
+    color: gray;
+}
+
+.card {
+    margin-bottom: 100px;
+}
+
+.card-text {
+    color: grey;
+}
+
+.cta {
+    text-align: center;
+    padding: 150px;
+    background-color: salmon;
+    color: #fff;
+}
+
+footer {
+    text-align: center;
+    height: 30px;
+    margin: 20px;
+}
