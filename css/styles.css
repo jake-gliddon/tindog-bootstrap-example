@@ -12,7 +12,7 @@ h1 {
 
 .title {
     background-color: #ff4c68;
-    /* height: 100vh; */
+    padding-bottom: 400px;
 }
 
 .intro-title {
@@ -28,9 +28,8 @@ h1 {
 }
 
 .iphone {
-    width: 60%;
-    height: 95%;
     transform: rotate(25deg);
+    position: absolute;
 }
 
 /* Navbar */
@@ -52,6 +51,11 @@ h1 {
 }
 
 /* features */
+.features {
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
 
 .feat {
     margin-top: 100px;
