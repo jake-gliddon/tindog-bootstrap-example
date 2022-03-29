@@ -25,11 +25,13 @@ h1 {
 .btn {
     margin-top: 20px;
     margin-right: 10px;
+    margin-bottom: 20px;
 }
 
 .iphone {
     transform: rotate(25deg);
     position: absolute;
+    padding-top: 30px;
 }
 
 /* Navbar */
@@ -52,16 +54,15 @@ h1 {
 
 /* features */
 .features {
+    padding: 7% 15%;
     background-color: #fff;
     position: relative;
     z-index: 1;
 }
 
 .feat {
-    margin-top: 100px;
-    margin-bottom: 100px;
-    padding: 100px;
     text-align: center;
+    padding: 4.5%;
 }
 
 .featIco {
@@ -76,7 +77,6 @@ h1 {
 
 .featHead {
     font-weight: bold;
-    font-size: 1.5rem;
 }
 
 .featPara {
@@ -88,7 +88,7 @@ h1 {
 .carousel {
     text-align: center;
     background-color: salmon;
-    padding: 200px;
+    padding: 100px;
 }
 
 .testimonial-text {
@@ -150,4 +150,33 @@ footer {
     text-align: center;
     height: 30px;
     margin: 20px;
+}
+
+@media (max-width: 1100px) {
+    .container {
+        text-align: center;
+    }
+    .title {
+        padding-bottom: 0;
+
+    }
+    .iphone {
+        position: static;
+        transform: rotate(0);
+    }
+
+
+
+    .testimonial-text {
+        font-size: 1rem;
+    }
+
+    .testimonial-image {
+        width: 80px;
+    }
+
+    em {
+        font-size: 0.5rem;
+    }
+
 }
